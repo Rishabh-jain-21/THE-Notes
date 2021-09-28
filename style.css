@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f0ece2;
+}
+.top {
+  align-items: center;
+  padding: 5px;
+  display: flex;
+  background-color: #596e79;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.navbar {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
+.home {
+  margin-left: 30px;
+  font-size: 13px;
+}
+.home:hover {
+  cursor: pointer;
+  border-bottom: 2px solid aliceblue;
+}
+
+.top input {
+  border-radius: 3px;
+  border: none;
+  width: 150px;
+  padding: 6px;
+}
+.top .search {
+  background-color: #596e79;
+  border: 2px solid rgb(13, 228, 13);
+  margin-left: 10px;
+  color: rgb(13, 228, 13);
+  padding: 5px;
+  border-radius: 3px;
+}
+.top .search:hover {
+  box-shadow: 0px 0px 3px rgb(13 228 13);
+}
+
+.Add-Notes {
+  margin-left: 25vw;
+  color: rgb(52, 58, 66);
+}
+.Add-Notes .notes-1 {
+  border-radius: 3px;
+  padding: 10px;
+  padding-top: 0px;
+  display: inline-block;
+  border: 1px solid #596e79;
+}
+.notes-2 {
+  padding: 0px 40px 10px 0px;
+}
+.notes-2 textarea {
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px solid rgb(206, 203, 203);
+  width: 45vw;
+}
+.button-note {
+  background-color: rgb(0, 126, 255);
+  color: aliceblue;
+  border: none;
+  font-size: 11px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+.button-note:hover {
+  opacity: 1;
+}
+.line {
+  position: absolute;
+  width: 50.5vw;
+}
+.card {
+  font-size: 14px;
+  margin: 15px;
+  padding: 15px;
+  padding-top: 0px;
+  width: 230px;
+  border: 1px solid #596e79;
+  border-radius: 3px;
+}
+.card-text {
+  margin-top: -10px;
+  font-size: 12px;
+  width: 300px;
+}
+.button2 {
+  background-color: red;
+  opacity: 0.8;
+}
+.button2:hover {
+  opacity: 1;
+}
+.notecontainer {
+  width: 60vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+  .Add-Notes .notes-1 {
+    border-radius: 3px;
+    /* padding: 10px; */
+    padding-top: 0px;
+    display: inline-block;
+    border: 1px solid #596e79;
+  }
+  .Add-Notes {
+    margin-left: 12vw;
+    color: #596e79;
+  }
+  .notes-2 textarea {
+    border-radius: 3px;
+    padding: 10px 0px;
+    border: 1px solid rgb(206, 203, 203);
+    width: 60vw;
+  }
+  .line {
+    position: absolute;
+    width: 60.5vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Add-Notes {
+    font-size: 13px;
+    margin-left: 15vw;
+    color: #596e79;
+  }
+  .line {
+    position: absolute;
+    width: 76.5vw;
+  }
+}
